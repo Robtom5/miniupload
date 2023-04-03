@@ -1,0 +1,17 @@
+[package]
+name = "miniupload"
+version = "0.1.0"
+edition = "2021"
+repository = "https://github.com/Robtom5/miniupload"
+readme = "README.md"
+description = "A simple tool for uploading to a miniserve instance"
+authors = ["Rob Schmigelow Thomas"]
+keywords = ["file-upload", "network-programming"]
+categories = ["command-line-utilities", "filesystem", "network-programming"]
+
+[dependencies]
+anyhow = "1.0.69"
+clap = { version = "4.1.8", features = ["derive"] }
+confy = "0.5.1"
+reqwest = { version="0.11", features = ["blocking", "multipart"] }
+serde = { version="1.0", features = ["derive"] }
