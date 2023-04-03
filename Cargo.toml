@@ -8,6 +8,9 @@ description = "A simple tool for uploading to a miniserve instance"
 authors = ["Rob Schmigelow Thomas"]
 keywords = ["file-upload", "network-programming"]
 categories = ["command-line-utilities", "filesystem", "network-programming"]
+exclude = [
+	".github/*"
+]
 
 [dependencies]
 anyhow = "1.0.69"
