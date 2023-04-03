@@ -4,6 +4,7 @@ version = "0.1.0"
 edition = "2021"
 repository = "https://github.com/Robtom5/miniupload"
 readme = "README.md"
+license-file = "LICENSE"
 description = "A simple tool for uploading to a miniserve instance"
 authors = ["Rob Schmigelow Thomas"]
 keywords = ["file-upload", "network-programming"]
